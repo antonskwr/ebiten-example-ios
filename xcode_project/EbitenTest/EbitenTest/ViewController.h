@@ -9,9 +9,9 @@
 #ifndef ViewController_h
 #define ViewController_h
 
-#import <Mygame/Mygame.h>
+#import <Mobile/Mobile.h>
 
-@interface ViewController : MygameEbitenViewController
+@interface ViewController : MobileEbitenViewController
 @end
 
 #endif /* ViewController_h */

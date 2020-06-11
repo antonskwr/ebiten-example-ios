@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7FAA2FD824923D16006ED0AB /* Mobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FAA2FD724923D16006ED0AB /* Mobile.framework */; };
 		7FFDF589248EB7FF002BF027 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDF588248EB7FF002BF027 /* AppDelegate.m */; };
 		7FFDF594248EB800002BF027 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FFDF593248EB800002BF027 /* Assets.xcassets */; };
 		7FFDF597248EB800002BF027 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FFDF595248EB800002BF027 /* LaunchScreen.storyboard */; };
 		7FFDF59A248EB800002BF027 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDF599248EB800002BF027 /* main.m */; };
 		7FFDF5B1248EE9AC002BF027 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDF5B0248EE9AC002BF027 /* ViewController.m */; };
-		7FFDF5CF248EF381002BF027 /* Mygame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FFDF5CE248EF381002BF027 /* Mygame.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7FAA2FD724923D16006ED0AB /* Mobile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mobile.framework; sourceTree = "<group>"; };
 		7FFDF584248EB7FF002BF027 /* EbitenTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EbitenTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FFDF587248EB7FF002BF027 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7FFDF588248EB7FF002BF027 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -25,7 +26,6 @@
 		7FFDF599248EB800002BF027 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7FFDF5AB248EE876002BF027 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7FFDF5B0248EE9AC002BF027 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7FFDF5CE248EF381002BF027 /* Mygame.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mygame.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FFDF5CF248EF381002BF027 /* Mygame.framework in Frameworks */,
+				7FAA2FD824923D16006ED0AB /* Mobile.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,7 +75,7 @@
 		7FFDF5A2248EB9B2002BF027 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7FFDF5CE248EF381002BF027 /* Mygame.framework */,
+				7FAA2FD724923D16006ED0AB /* Mobile.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

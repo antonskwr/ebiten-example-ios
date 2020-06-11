@@ -1,1 +1,1 @@
-ebitenmobile bind -target ios -o ./xcode_project/EbitenTest/Mygame.framework ./gamemobile
+ebitenmobile bind -target ios -o ./xcode_project/EbitenTest/Mobile.framework ./mobile

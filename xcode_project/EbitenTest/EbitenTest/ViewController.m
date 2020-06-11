@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import <Foundation/Foundation.h>
-#import <Mygame/Mygame.h>
 
 @implementation ViewController {}
 
@@ -19,8 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    MygameInitGame((long)self.view.frame.size.width, (long)self.view.frame.size.height);
-    
+    MobileInitGame((long)self.view.frame.size.width, (long)self.view.frame.size.height);
 }
+
 @end
