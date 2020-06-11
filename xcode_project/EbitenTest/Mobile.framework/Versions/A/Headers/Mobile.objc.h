@@ -11,6 +11,6 @@
 #include "Universe.objc.h"
 
 
-FOUNDATION_EXPORT void MobileInitGame(long screenWidth, long screenHeight);
+FOUNDATION_EXPORT void MobileSetScreenSize(long screenWidth, long screenHeight);
 
 #endif

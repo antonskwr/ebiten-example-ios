@@ -13,12 +13,12 @@
 
 - (void)onErrorOnGameUpdate:(NSError *)err {
     // You can define your own error handling e.g., using Crashlytics.
-    NSLog(@"Inovation Error!: %@", err);
+    NSLog(@"Game Error!: %@", err);
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    MobileInitGame((long)self.view.frame.size.width, (long)self.view.frame.size.height);
+//    MobileSetScreenSize((long)self.view.frame.size.width, (long)self.view.frame.size.height);
 }
 
 @end

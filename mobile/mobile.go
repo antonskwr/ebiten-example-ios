@@ -10,7 +10,6 @@ func init() {
 	mobile.SetGame(&game.Game{})
 }
 
-func InitGame(screenWidth, screenHeight int) {
-	game.Setup()
+func SetScreenSize(screenWidth, screenHeight int) {
 	game.SetupViewport(screenWidth, screenHeight)
 }

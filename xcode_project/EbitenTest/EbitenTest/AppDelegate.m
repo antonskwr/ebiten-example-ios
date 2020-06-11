@@ -17,8 +17,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    self.window = UIWindow.new;
+    CGRect screenRect = [[UIScreen mainScreen] bounds];
+    CGFloat screenWidth = screenRect.size.width;
+    CGFloat screenHeight = screenRect.size.height;
     
+    MobileSetScreenSize((long)screenWidth, (long)screenHeight);
+    
+    self.window = UIWindow.new;
     ViewController *vc = ViewController.new;
     
     self.window.rootViewController = vc;

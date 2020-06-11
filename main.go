@@ -27,7 +27,6 @@ func main() {
 	ebiten.SetWindowSize(screenWidth*2, screenHeight*2)
 	ebiten.SetWindowTitle("Animation (Ebiten Demo)")
 	game.SetupViewport(screenWidth, screenHeight)
-	game.Setup()
 	if err := ebiten.RunGame(&game.Game{}); err != nil {
 		log.Fatal(err)
 	}
