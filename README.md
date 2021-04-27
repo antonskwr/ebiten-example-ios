@@ -1,4 +1,4 @@
-# Example of building Ebiten game for iOS
+# Example of building [Ebiten](https://github.com/hajimehoshi/ebiten) game for iOS
 
 Xcode project included
 
