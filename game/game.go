@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hajimehoshi/ebiten"
-	"github.com/hajimehoshi/ebiten/examples/resources/images"
+	"github.com/hajimehoshi/ebiten/v2"
+	"github.com/hajimehoshi/ebiten/v2/examples/resources/images"
 )
 
 const (
@@ -40,7 +40,7 @@ func init() {
 	setup()
 }
 
-func (g *Game) Update(screen *ebiten.Image) error {
+func (g *Game) Update() error {
 	t := time.Since(lastTime).Milliseconds()
 	lastTime = time.Now()
 	elapsedTime += t
@@ -79,7 +79,7 @@ func setup() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	runnerImage, _ = ebiten.NewImageFromImage(img, ebiten.FilterDefault)
+	runnerImage = ebiten.NewImageFromImage(img)
 	fmt.Println("Setup Complete")
 }
 
